@@ -29,8 +29,8 @@ MODLIBS=        $(LOCALMODLIBS) $(BASEMODLIBS)
 VERSION=	3.6
 srcdir=		.
 
-abs_srcdir=	/tmp/python3-20170529-24565-ugo8yk/Python-3.6.1
-abs_builddir=	/tmp/python3-20170529-24565-ugo8yk/Python-3.6.1
+abs_srcdir=	/tmp/python3-20170529-18392-eqvb7p/Python-3.6.1
+abs_builddir=	/tmp/python3-20170529-18392-eqvb7p/Python-3.6.1
 
 
 CC=		gcc-6 -pthread
@@ -175,7 +175,7 @@ LIPO_32BIT_FLAGS=
 OTHER_LIBTOOL_OPT=
 
 # Environment to run shared python without installed libraries
-RUNSHARED=       LD_LIBRARY_PATH=/tmp/python3-20170529-24565-ugo8yk/Python-3.6.1
+RUNSHARED=       LD_LIBRARY_PATH=/tmp/python3-20170529-18392-eqvb7p/Python-3.6.1
 
 # ensurepip options
 ENSUREPIP=      no
