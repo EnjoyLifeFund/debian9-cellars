@@ -1,0 +1,2 @@
+#!/bin/bash
+PYTHONPATH="/home/dojo/.linuxbrew/Cellar/cython/0.25.2/libexec/lib/python2.7/site-packages:/home/dojo/.linuxbrew/lib/python2.7/site-packages" exec "/home/dojo/.linuxbrew/Cellar/cython/0.25.2/libexec/bin/cythonize" "$@"
