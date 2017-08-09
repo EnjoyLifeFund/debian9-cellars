@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/libice/1.0.9
+prefix=/home/linuxbrew/.linuxbrew/Cellar/libice/1.0.9
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

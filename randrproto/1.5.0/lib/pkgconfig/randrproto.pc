@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/randrproto/1.5.0
+prefix=/home/linuxbrew/.linuxbrew/Cellar/randrproto/1.5.0
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -2,7 +2,7 @@
 
 package sys
 
-const DefaultGoroot = `/home/dojo/.linuxbrew/Cellar/go/1.8.3/libexec`
+const DefaultGoroot = `/home/linuxbrew/.linuxbrew/Cellar/go/1.8.3/libexec`
 const TheVersion = `go1.8.3`
 const Goexperiment = ``
 const StackGuardMultiplier = 1

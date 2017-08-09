@@ -1,6 +1,6 @@
-// Do not edit. Bootstrap copy of /tmp/go-20170529-7428-4cl5ea/go/src/cmd/internal/obj/s390x/a.out.go
+// Do not edit. Bootstrap copy of /tmp/go-20170524-43289-mangl1/go/src/cmd/internal/obj/s390x/a.out.go
 
-//line /tmp/go-20170529-7428-4cl5ea/go/src/cmd/internal/obj/s390x/a.out.go:1
+//line /tmp/go-20170524-43289-mangl1/go/src/cmd/internal/obj/s390x/a.out.go:1
 // Based on cmd/internal/obj/ppc64/a.out.go.
 //
 //	Copyright © 1994-1999 Lucent Technologies Inc.  All rights reserved.

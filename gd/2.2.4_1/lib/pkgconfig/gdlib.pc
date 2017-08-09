@@ -1,0 +1,11 @@
+prefix=/home/linuxbrew/.linuxbrew/Cellar/gd/2.2.4_1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gd
+Description: GD graphics library
+Version: 2.2.4
+Cflags: -I${includedir}
+Libs.private: -lm   -L/home/linuxbrew/.linuxbrew/Cellar/zlib/1.2.8/lib -lz   -L/home/linuxbrew/.linuxbrew/opt/libpng/lib -L/home/linuxbrew/.linuxbrew/Cellar/libpng/1.6.28/lib -lpng16   -L/home/linuxbrew/.linuxbrew/opt/freetype/lib -L/home/linuxbrew/.linuxbrew/opt/freetype/lib -lfreetype   -L/home/linuxbrew/.linuxbrew/opt/fontconfig/lib -L/home/linuxbrew/.linuxbrew/Cellar/fontconfig/2.12.1_2/lib -L/home/linuxbrew/.linuxbrew/opt/freetype/lib -lfontconfig -lfreetype   -L/home/linuxbrew/.linuxbrew/opt/jpeg/lib  -ljpeg -L/home/linuxbrew/.linuxbrew/opt/libtiff/lib -L/home/linuxbrew/.linuxbrew/Cellar/libtiff/4.0.7_2/lib -ltiff   -L/home/linuxbrew/.linuxbrew/opt/webp/lib  -lwebp 
+Libs: -L${libdir} -lgd

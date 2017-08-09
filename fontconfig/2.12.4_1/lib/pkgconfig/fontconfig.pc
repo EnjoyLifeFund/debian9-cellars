@@ -1,0 +1,18 @@
+prefix=/home/linuxbrew/.linuxbrew/Cellar/fontconfig/2.12.4_1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=/home/linuxbrew/.linuxbrew/etc
+localstatedir=/home/linuxbrew/.linuxbrew/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/${PACKAGE}
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.12.4
+Requires:  freetype2
+Requires.private:  expat
+Libs: -L${libdir} -lfontconfig
+Libs.private: -L/home/linuxbrew/.linuxbrew/Cellar/expat/2.2.3/lib -lexpat -L/home/linuxbrew/.linuxbrew/opt/freetype/lib -lfreetype  
+Cflags: -I${includedir} -I/home/linuxbrew/.linuxbrew/Cellar/expat/2.2.3/include -I/home/linuxbrew/.linuxbrew/opt/freetype/include/freetype2  

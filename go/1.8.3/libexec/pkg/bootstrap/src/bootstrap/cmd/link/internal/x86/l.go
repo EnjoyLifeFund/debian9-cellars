@@ -1,6 +1,6 @@
-// Do not edit. Bootstrap copy of /tmp/go-20170529-7428-4cl5ea/go/src/cmd/link/internal/x86/l.go
+// Do not edit. Bootstrap copy of /tmp/go-20170524-43289-mangl1/go/src/cmd/link/internal/x86/l.go
 
-//line /tmp/go-20170529-7428-4cl5ea/go/src/cmd/link/internal/x86/l.go:1
+//line /tmp/go-20170524-43289-mangl1/go/src/cmd/link/internal/x86/l.go:1
 // Inferno utils/8l/l.h
 // https://bitbucket.org/inferno-os/inferno-os/src/default/utils/8l/l.h
 //

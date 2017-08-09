@@ -1,6 +1,6 @@
-// Do not edit. Bootstrap copy of /tmp/go-20170529-7428-4cl5ea/go/src/cmd/link/internal/ld/ld.go
+// Do not edit. Bootstrap copy of /tmp/go-20170524-43289-mangl1/go/src/cmd/link/internal/ld/ld.go
 
-//line /tmp/go-20170529-7428-4cl5ea/go/src/cmd/link/internal/ld/ld.go:1
+//line /tmp/go-20170524-43289-mangl1/go/src/cmd/link/internal/ld/ld.go:1
 // Derived from Inferno utils/6l/obj.c and utils/6l/span.c
 // https://bitbucket.org/inferno-os/inferno-os/src/default/utils/6l/obj.c
 // https://bitbucket.org/inferno-os/inferno-os/src/default/utils/6l/span.c

@@ -42,9 +42,6 @@
 
 
 
-
-
-
 #
 #	This file contains alias name of locale.
 #	Each alias name is described within one line.
@@ -1257,7 +1254,7 @@ spanish_spain.8859				es_ES.ISO8859-1
 american.iso88591				en_US.ISO8859-1
 arabic.iso88596				ar_AA.ISO8859-6
 bokmal						nb_NO.ISO8859-1
-bokmål:						nb_NO.ISO8859-1
+bokmål						nb_NO.ISO8859-1
 bulgarian					bg_BG.CP1251
 c-french.iso88591				fr_CA.ISO8859-1
 catalan					ca_ES.ISO8859-1
@@ -1276,7 +1273,7 @@ english.iso88591				en_EN.ISO8859-1
 estonian					et_EE.ISO8859-1
 finnish					fi_FI.ISO8859-1
 finnish.iso88591				fi_FI.ISO8859-1
-français:					fr_FR.ISO8859-1
+français					fr_FR.ISO8859-1
 french						fr_FR.ISO8859-1
 french.iso88591				fr_CH.ISO8859-1
 galego						gl_ES.ISO8859-1
@@ -1331,9 +1328,6 @@ ISO8859-1					en_US.ISO8859-1
 ISO-8859-1					en_US.ISO8859-1
 japan						ja_JP.eucJP
 Japanese-EUC					ja_JP.eucJP
-
-
-
 
 
 

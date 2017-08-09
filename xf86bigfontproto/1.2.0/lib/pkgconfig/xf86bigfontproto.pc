@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/xf86bigfontproto/1.2.0
+prefix=/home/linuxbrew/.linuxbrew/Cellar/xf86bigfontproto/1.2.0
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -5,10 +5,10 @@
 # You can do whatever you want with this file.
 #
 
-prefix=/home/dojo/.linuxbrew/Cellar/xz/5.2.3
-exec_prefix=/home/dojo/.linuxbrew/Cellar/xz/5.2.3
-libdir=/home/dojo/.linuxbrew/Cellar/xz/5.2.3/lib
-includedir=/home/dojo/.linuxbrew/Cellar/xz/5.2.3/include
+prefix=/home/linuxbrew/.linuxbrew/Cellar/xz/5.2.3
+exec_prefix=/home/linuxbrew/.linuxbrew/Cellar/xz/5.2.3
+libdir=/home/linuxbrew/.linuxbrew/Cellar/xz/5.2.3/lib
+includedir=/home/linuxbrew/.linuxbrew/Cellar/xz/5.2.3/include
 
 Name: liblzma
 Description: General purpose data compression library

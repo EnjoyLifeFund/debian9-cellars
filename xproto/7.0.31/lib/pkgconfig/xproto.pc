@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/xproto/7.0.31
+prefix=/home/linuxbrew/.linuxbrew/Cellar/xproto/7.0.31
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

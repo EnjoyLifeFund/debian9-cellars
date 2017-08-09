@@ -1,6 +1,6 @@
-// Do not edit. Bootstrap copy of /tmp/go-20170529-7428-4cl5ea/go/src/math/big/arith_mips64x.s
+// Do not edit. Bootstrap copy of /tmp/go-20170524-43289-mangl1/go/src/math/big/arith_mips64x.s
 
-//line /tmp/go-20170529-7428-4cl5ea/go/src/math/big/arith_mips64x.s:1
+//line /tmp/go-20170524-43289-mangl1/go/src/math/big/arith_mips64x.s:1
 // Copyright 2013 The Go Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.

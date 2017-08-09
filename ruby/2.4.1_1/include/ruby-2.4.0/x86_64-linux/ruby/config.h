@@ -136,6 +136,9 @@
 #define WARNINGFUNC(mesg,x) __attribute__ ((__warning__ mesg)) x
 #define WEAK(x) __attribute__ ((__weak__)) x
 #define HAVE_FUNC_WEAK 1
+#define FUNC_STDCALL(x) __attribute__ ((__stdcall__)) x
+#define FUNC_CDECL(x) __attribute__ ((__cdecl__)) x
+#define FUNC_FASTCALL(x) __attribute__ ((__fastcall__)) x
 #define FUNC_UNOPTIMIZED(x) __attribute__ ((__optimize__("O0"))) x
 #define FUNC_MINIMIZED(x) __attribute__ ((__optimize__("-Os","-fomit-frame-pointer"))) x
 #define HAVE_ATTRIBUTE_FUNCTION_ALIAS 1
@@ -342,7 +345,6 @@
 #define HAVE_BUILTIN___BUILTIN_CTZLL 1
 #define HAVE_BUILTIN___BUILTIN_CONSTANT_P 1
 #define HAVE_BUILTIN___BUILTIN_CHOOSE_EXPR 1
-#define HAVE_BUILTIN___BUILTIN_CHOOSE_EXPR_CONSTANT_P 1
 #define HAVE_BUILTIN___BUILTIN_TYPES_COMPATIBLE_P 1
 #define HAVE_GNU_QSORT_R 1
 #define ATAN2_INF_C99 1

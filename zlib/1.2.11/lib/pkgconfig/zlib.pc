@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/zlib/1.2.11
+prefix=/home/linuxbrew/.linuxbrew/Cellar/zlib/1.2.11
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 sharedlibdir=${libdir}

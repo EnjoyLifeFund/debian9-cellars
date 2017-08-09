@@ -1,6 +1,6 @@
 arch=x86_64-linux
 sitearch=${arch}
-prefix=/home/dojo/.linuxbrew/Cellar/ruby/2.4.1_1
+prefix=/home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.1_1
 exec_prefix=${prefix}
 bindir=${exec_prefix}/bin
 libdir=${exec_prefix}/lib
@@ -24,8 +24,8 @@ rubylibprefix=${libdir}/${RUBY_BASE_NAME}
 rubyarchprefix=${rubylibprefix}/${arch}
 rubysitearchprefix=${rubylibprefix}/${sitearch}
 rubylibdir=${rubylibprefix}/${ruby_version}
-vendordir=/home/dojo/.linuxbrew/lib/ruby/vendor_ruby
-sitedir=/home/dojo/.linuxbrew/lib/ruby/site_ruby
+vendordir=/home/linuxbrew/.linuxbrew/lib/ruby/vendor_ruby
+sitedir=/home/linuxbrew/.linuxbrew/lib/ruby/site_ruby
 vendorlibdir=${vendordir}/${ruby_version}
 sitelibdir=${sitedir}/${ruby_version}
 rubyarchdir=${rubylibdir}/${arch}
@@ -45,7 +45,7 @@ LIBRUBYARG_SHARED=-Wl,-R${libdir} -L${libdir} -l${RUBY_SO_NAME}
 LIBRUBYARG_STATIC=-Wl,-R${libdir} -L${libdir} -l${RUBY_SO_NAME}-static
 LIBRUBYARG=${LIBRUBYARG_SHARED}
 LIBS=-lpthread -ldl -lcrypt -lm 
-DLDFLAGS=-Wl,--compress-debug-sections=zlib -L/home/dojo/.linuxbrew/opt/libyaml/lib  -Wl,-R/home/dojo/.linuxbrew/opt/libyaml/lib -L/home/dojo/.linuxbrew/opt/openssl/lib  -Wl,-R/home/dojo/.linuxbrew/opt/openssl/lib -L/home/dojo/.linuxbrew/opt/readline/lib  -Wl,-R/home/dojo/.linuxbrew/opt/readline/lib
+DLDFLAGS=-L/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so -Wl,-rpath,/home/linuxbrew/.linuxbrew/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/opt/ncurses/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/opt/readline/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/opt/libyaml/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/opt/zlib/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/opt/openssl/lib -L/home/linuxbrew/.linuxbrew/opt/libyaml/lib  -Wl,-R/home/linuxbrew/.linuxbrew/opt/libyaml/lib -L/home/linuxbrew/.linuxbrew/opt/openssl/lib  -Wl,-R/home/linuxbrew/.linuxbrew/opt/openssl/lib -L/home/linuxbrew/.linuxbrew/opt/readline/lib  -Wl,-R/home/linuxbrew/.linuxbrew/opt/readline/lib
 
 Name: Ruby
 Description: Object Oriented Script Language

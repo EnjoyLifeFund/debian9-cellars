@@ -1,6 +1,6 @@
-// Do not edit. Bootstrap copy of /tmp/go-20170529-7428-4cl5ea/go/src/cmd/internal/obj/ppc64/obj9.go
+// Do not edit. Bootstrap copy of /tmp/go-20170524-43289-mangl1/go/src/cmd/internal/obj/ppc64/obj9.go
 
-//line /tmp/go-20170529-7428-4cl5ea/go/src/cmd/internal/obj/ppc64/obj9.go:1
+//line /tmp/go-20170524-43289-mangl1/go/src/cmd/internal/obj/ppc64/obj9.go:1
 // cmd/9l/noop.c, cmd/9l/pass.c, cmd/9l/span.c from Vita Nuova.
 //
 //	Copyright © 1994-1999 Lucent Technologies Inc.  All rights reserved.

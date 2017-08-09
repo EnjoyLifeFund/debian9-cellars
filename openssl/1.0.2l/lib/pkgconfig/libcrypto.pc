@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/openssl/1.0.2l
+prefix=/home/linuxbrew/.linuxbrew/Cellar/openssl/1.0.2l
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

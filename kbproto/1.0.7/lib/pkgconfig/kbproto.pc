@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/kbproto/1.0.7
+prefix=/home/linuxbrew/.linuxbrew/Cellar/kbproto/1.0.7
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

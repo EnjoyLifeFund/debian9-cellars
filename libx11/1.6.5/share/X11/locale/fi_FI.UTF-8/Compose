@@ -42,9 +42,6 @@
 
 
 
-
-
-
 #
 # Official compose sequences for Finland based on SFS 5966 standard
 #
@@ -60,7 +57,7 @@
 #
 
 # Use en_US.UTF-8/Compose as the base compose sequence definition set
-include "/home/dojo/.linuxbrew/Cellar/libx11/1.6.5/share/X11/locale/en_US.UTF-8/Compose"
+include "/home/linuxbrew/.linuxbrew/Cellar/libx11/1.6.5/share/X11/locale/en_US.UTF-8/Compose"
 
 # Define all the sequences of the standard overriding any sequence
 # from en_US.UTF-8/Compose if such a sequence was provided already

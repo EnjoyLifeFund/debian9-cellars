@@ -8,7 +8,7 @@ module Gem
 
   def self.default_dir
     path = [
-      "/home/dojo/.linuxbrew",
+      "/home/linuxbrew/.linuxbrew",
       "lib",
       "ruby",
       "gems",
@@ -52,10 +52,10 @@ module Gem
   end
 
   def self.default_bindir
-    "/home/dojo/.linuxbrew/bin"
+    "/home/linuxbrew/.linuxbrew/bin"
   end
 
   def self.ruby
-    "/home/dojo/.linuxbrew/opt/ruby/bin/ruby"
+    "/home/linuxbrew/.linuxbrew/opt/ruby/bin/ruby"
   end
 end

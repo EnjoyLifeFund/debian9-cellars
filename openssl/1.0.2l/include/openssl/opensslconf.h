@@ -118,8 +118,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/home/dojo/.linuxbrew/Cellar/openssl/1.0.2l/lib/engines"
-#define OPENSSLDIR "/home/dojo/.linuxbrew/etc/openssl"
+#define ENGINESDIR "/home/linuxbrew/.linuxbrew/Cellar/openssl/1.0.2l/lib/engines"
+#define OPENSSLDIR "/home/linuxbrew/.linuxbrew/etc/openssl"
 #endif
 #endif
 

@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/libbsd/0.8.3
+prefix=/home/linuxbrew/.linuxbrew/Cellar/libbsd/0.8.3
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

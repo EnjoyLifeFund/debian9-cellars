@@ -7,7 +7,7 @@
 
 BEGIN {
     # Change to suit your system
-    _gr_awklib = "/home/dojo/.linuxbrew/Cellar/gawk/4.1.4_1/libexec/awk/"
+    _gr_awklib = "/home/linuxbrew/.linuxbrew/Cellar/gawk/4.1.4_1/libexec/awk/"
 }
 
 function _gr_init(    oldfs, oldrs, olddol0, grcat,

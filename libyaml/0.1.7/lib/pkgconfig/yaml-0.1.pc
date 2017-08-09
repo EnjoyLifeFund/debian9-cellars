@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/libyaml/0.1.7
+prefix=/home/linuxbrew/.linuxbrew/Cellar/libyaml/0.1.7
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib

@@ -7,7 +7,7 @@
 
 BEGIN {
     # tailor this to suit your system
-    _pw_awklib = "/home/dojo/.linuxbrew/Cellar/gawk/4.1.4_1/libexec/awk/"
+    _pw_awklib = "/home/linuxbrew/.linuxbrew/Cellar/gawk/4.1.4_1/libexec/awk/"
 }
 
 function _pw_init(    oldfs, oldrs, olddol0, pwcat, using_fw, using_fpat)

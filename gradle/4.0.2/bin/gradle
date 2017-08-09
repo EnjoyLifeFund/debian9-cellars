@@ -1,0 +1,2 @@
+#!/bin/bash
+exec "/home/linuxbrew/.linuxbrew/Cellar/gradle/4.0.2/libexec/bin/gradle" "$@"

@@ -42,9 +42,6 @@
 
 
 
-
-
-
 # UTF-8 (Unicode) compose sequences
 #
 # Modified for Czech, following iso8859-2/Compose
@@ -52,7 +49,7 @@
 #	based on bug report by Vladimír Marek <vlmarek@volny.cz>
 
 # Use the sequences from en_US.UTF-8 as the basis:
-include "/home/dojo/.linuxbrew/Cellar/libx11/1.6.5/share/X11/locale/en_US.UTF-8/Compose"
+include "/home/linuxbrew/.linuxbrew/Cellar/libx11/1.6.5/share/X11/locale/en_US.UTF-8/Compose"
 
 #  Overriding U with caron:
 <dead_caron> <u>                        : "ů"   U016F  #  LATIN SMALL LETTER U WITH RING ABOVE

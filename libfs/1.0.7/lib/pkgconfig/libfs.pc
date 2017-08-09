@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/libfs/1.0.7
+prefix=/home/linuxbrew/.linuxbrew/Cellar/libfs/1.0.7
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

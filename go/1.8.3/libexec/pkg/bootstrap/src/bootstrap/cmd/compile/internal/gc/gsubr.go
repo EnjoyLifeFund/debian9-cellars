@@ -1,6 +1,6 @@
-// Do not edit. Bootstrap copy of /tmp/go-20170529-7428-4cl5ea/go/src/cmd/compile/internal/gc/gsubr.go
+// Do not edit. Bootstrap copy of /tmp/go-20170524-43289-mangl1/go/src/cmd/compile/internal/gc/gsubr.go
 
-//line /tmp/go-20170529-7428-4cl5ea/go/src/cmd/compile/internal/gc/gsubr.go:1
+//line /tmp/go-20170524-43289-mangl1/go/src/cmd/compile/internal/gc/gsubr.go:1
 // Derived from Inferno utils/6c/txt.c
 // https://bitbucket.org/inferno-os/inferno-os/src/default/utils/6c/txt.c
 //

@@ -1,6 +1,6 @@
-// Do not edit. Bootstrap copy of /tmp/go-20170529-7428-4cl5ea/go/src/cmd/internal/obj/arm/a.out.go
+// Do not edit. Bootstrap copy of /tmp/go-20170524-43289-mangl1/go/src/cmd/internal/obj/arm/a.out.go
 
-//line /tmp/go-20170529-7428-4cl5ea/go/src/cmd/internal/obj/arm/a.out.go:1
+//line /tmp/go-20170524-43289-mangl1/go/src/cmd/internal/obj/arm/a.out.go:1
 // Inferno utils/5c/5.out.h
 // https://bitbucket.org/inferno-os/inferno-os/src/default/utils/5c/5.out.h
 //

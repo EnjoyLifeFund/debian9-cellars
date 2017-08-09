@@ -1,0 +1,11 @@
+prefix=/home/linuxbrew/.linuxbrew/Cellar/libxshmfence/1.2
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: xshmfence
+Description: The X Shared Memory Fence Library
+Version: 1.2
+Cflags: -I${includedir} -I/home/linuxbrew/.linuxbrew/Cellar/xproto/7.0.28/include
+Libs: -L${libdir} -lxshmfence
+Libs.private: 

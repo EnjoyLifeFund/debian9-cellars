@@ -1,0 +1,8 @@
+includedir=/home/linuxbrew/.linuxbrew/Cellar/r/3.4.1/include
+libdir=/home/linuxbrew/.linuxbrew/Cellar/r/3.4.1/lib
+
+Name: libRmath
+Description: The Rmath function library
+Version: 3.4.1
+Libs: -L${libdir} -lRmath -lm
+Cflags: -I${includedir}

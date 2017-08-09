@@ -29,7 +29,7 @@
 .\" $Id: panel.3x,v 1.19 2015/12/05 23:42:45 tom Exp $
 .TH panel 3CURSES ""
 .ds n 5
-.ds d /home/dojo/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo
+.ds d /home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo
 .SH NAME
 panel \- panel stack extension for curses
 .SH SYNOPSIS

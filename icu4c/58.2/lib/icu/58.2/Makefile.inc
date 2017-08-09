@@ -27,7 +27,7 @@
 # etc.  If ICU is not installed in this directory, you must change the
 # following line.  There should exist $(prefix)/include/unicode/utypes.h
 # for example.
-prefix = /home/dojo/.linuxbrew/Cellar/icu4c/58.2
+prefix = /home/linuxbrew/.linuxbrew/Cellar/icu4c/58.2
 exec_prefix = ${prefix}
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec

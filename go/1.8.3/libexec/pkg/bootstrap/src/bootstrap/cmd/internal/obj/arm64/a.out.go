@@ -1,6 +1,6 @@
-// Do not edit. Bootstrap copy of /tmp/go-20170529-7428-4cl5ea/go/src/cmd/internal/obj/arm64/a.out.go
+// Do not edit. Bootstrap copy of /tmp/go-20170524-43289-mangl1/go/src/cmd/internal/obj/arm64/a.out.go
 
-//line /tmp/go-20170529-7428-4cl5ea/go/src/cmd/internal/obj/arm64/a.out.go:1
+//line /tmp/go-20170524-43289-mangl1/go/src/cmd/internal/obj/arm64/a.out.go:1
 // cmd/7c/7.out.h  from Vita Nuova.
 // https://code.google.com/p/ken-cc/source/browse/src/cmd/7c/7.out.h
 //

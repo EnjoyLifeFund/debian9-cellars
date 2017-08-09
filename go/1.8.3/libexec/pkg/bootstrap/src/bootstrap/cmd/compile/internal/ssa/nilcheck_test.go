@@ -1,6 +1,6 @@
-// Do not edit. Bootstrap copy of /tmp/go-20170529-7428-4cl5ea/go/src/cmd/compile/internal/ssa/nilcheck_test.go
+// Do not edit. Bootstrap copy of /tmp/go-20170524-43289-mangl1/go/src/cmd/compile/internal/ssa/nilcheck_test.go
 
-//line /tmp/go-20170529-7428-4cl5ea/go/src/cmd/compile/internal/ssa/nilcheck_test.go:1
+//line /tmp/go-20170524-43289-mangl1/go/src/cmd/compile/internal/ssa/nilcheck_test.go:1
 package ssa
 
 import (

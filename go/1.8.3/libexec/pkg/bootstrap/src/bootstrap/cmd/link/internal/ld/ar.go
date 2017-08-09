@@ -1,6 +1,6 @@
-// Do not edit. Bootstrap copy of /tmp/go-20170529-7428-4cl5ea/go/src/cmd/link/internal/ld/ar.go
+// Do not edit. Bootstrap copy of /tmp/go-20170524-43289-mangl1/go/src/cmd/link/internal/ld/ar.go
 
-//line /tmp/go-20170529-7428-4cl5ea/go/src/cmd/link/internal/ld/ar.go:1
+//line /tmp/go-20170524-43289-mangl1/go/src/cmd/link/internal/ld/ar.go:1
 // Inferno utils/include/ar.h
 // https://bitbucket.org/inferno-os/inferno-os/src/default/utils/include/ar.h
 //

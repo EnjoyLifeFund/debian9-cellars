@@ -1,4 +1,4 @@
-#!/home/dojo/.linuxbrew/Cellar/ruby/2.4.1_1/bin/ruby
+#!/home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.1_1/bin/ruby
 # Tiny eRuby --- ERB2
 # Copyright (c) 1999-2000,2002 Masatoshi SEKI
 # You can redistribute it and/or modify it under the same terms as Ruby.

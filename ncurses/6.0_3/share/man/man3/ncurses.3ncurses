@@ -38,7 +38,7 @@
 .IP \(bu 4
 ..
 .ds n 5
-.ds d /home/dojo/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo
+.ds d /home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo
 .SH NAME
 \fBncurses\fR \- CRT screen handling and optimization package
 .SH SYNOPSIS
@@ -1063,7 +1063,7 @@ ncurses library, i.e.,
 .bP
 no default value (corresponding to the TERMINFO_DIRS variable)
 .bP
-/home/dojo/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo (corresponding to the TERMINFO variable)
+/home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo (corresponding to the TERMINFO variable)
 .RE
 .RE
 .SS TERMINFO_DIRS
@@ -1178,9 +1178,9 @@ Configure scripts should check for the function's existence rather
 than assuming it is always in the debug library.
 .SH FILES
 .TP 5
-/home/dojo/.linuxbrew/Cellar/ncurses/6.0_3/share/tabset
+/home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_3/share/tabset
 directory containing initialization files for the terminal capability database
-/home/dojo/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo
+/home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo
 terminal capability database
 .SH SEE ALSO
 \fBterminfo\fR(\*n) and related pages whose names begin

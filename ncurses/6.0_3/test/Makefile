@@ -46,7 +46,7 @@ o		= .o
 MODEL		= ../obj_s
 top_srcdir	= ..
 srcdir		= .
-prefix		= /home/dojo/.linuxbrew/Cellar/ncurses/6.0_3
+prefix		= /home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_3
 exec_prefix	= ${prefix}
 datarootdir	= ${prefix}/share
 
@@ -72,11 +72,11 @@ INSTALL_PROG	= ${INSTALL}
 transform	= s,x,x,
 TRANSFORM	= sed 's/$x$$//'|sed '$(transform)'|sed 's/$$/$x/'
 
-CTAGS		= 
-ETAGS		= 
+CTAGS		= ctags
+ETAGS		= etags
 
-CC		= gcc-6
-CPP		= gcc-6 -E
+CC		= gcc-4.8
+CPP		= gcc-4.8 -E
 
 CFLAGS		= -O2 --param max-inline-insns-single=1200 
 CPPFLAGS	= -I. -I$(srcdir) -I../test -DHAVE_CONFIG_H -I. -I../include -P -D_GNU_SOURCE -D_DEFAULT_SOURCE -DNDEBUG
@@ -93,7 +93,7 @@ CFLAGS_DEFAULT	= $(CFLAGS_SHARED)
 
 REL_VERSION	= 6.0
 ABI_VERSION	= 6
-LOCAL_LIBDIR	= /tmp/ncurses-20170529-23463-9ynimz/ncurses-6.0/lib
+LOCAL_LIBDIR	= /tmp/ncurses-20170405-40182-18oiku3/ncurses-6.0/lib
 LOCAL_LIBS	= ../lib/libformw.so ../lib/libmenuw.so ../lib/libpanelw.so ../lib/libncursesw.so 
 MATH_LIB	= -lm
 TEST_LIBS	= -lutil
@@ -537,7 +537,7 @@ lintlib :
 #  name:          testw
 #  traces:        DEBUG
 #  MODEL:         SHARED
-#  CXX_MODEL:     SHARED
+#  CXX_MODEL:     NORMAL
 #  model:         obj_s
 #  prefix:        lib
 #  suffix:        .so
@@ -640,7 +640,7 @@ clean ::
 #   echo:       yes
 #   subset:     ticlib+termlib+ext_tinfo+base+widechar+ext_funcs
 #   crenames:   yes
-#   cxxrenames: 
+#   cxxrenames: yes
 #   traces:     DEBUG
 #   srcdir:     .
 
@@ -1040,7 +1040,7 @@ clean ::
 #   echo:       yes
 #   subset:     ticlib+termlib+ext_tinfo+base+widechar+ext_funcs
 #   crenames:   yes
-#   cxxrenames: 
+#   cxxrenames: yes
 #   traces:     DEBUG
 #   srcdir:     .
 
@@ -1440,7 +1440,7 @@ clean ::
 #   echo:       yes
 #   subset:     ticlib+termlib+ext_tinfo+base+widechar+ext_funcs
 #   crenames:   yes
-#   cxxrenames: 
+#   cxxrenames: yes
 #   traces:     DEBUG
 #   srcdir:     .
 

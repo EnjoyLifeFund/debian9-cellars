@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/dri2proto/2.8
+prefix=/home/linuxbrew/.linuxbrew/Cellar/dri2proto/2.8
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

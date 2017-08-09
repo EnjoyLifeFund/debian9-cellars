@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/libxdmcp/1.1.2
+prefix=/home/linuxbrew/.linuxbrew/Cellar/libxdmcp/1.1.2
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

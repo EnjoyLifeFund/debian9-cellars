@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/xtrans/1.3.5
+prefix=/home/linuxbrew/.linuxbrew/Cellar/xtrans/1.3.5
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

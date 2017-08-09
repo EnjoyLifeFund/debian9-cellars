@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/xf86dgaproto/2.1
+prefix=/home/linuxbrew/.linuxbrew/Cellar/xf86dgaproto/2.1
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

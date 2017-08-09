@@ -1,4 +1,4 @@
-#!/home/dojo/.linuxbrew/Cellar/ruby/2.4.1_1/bin/ruby
+#!/home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.1_1/bin/ruby
 #
 #  RDoc: Documentation tool for source code
 #        (see lib/rdoc/rdoc.rb for more information)

@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/recordproto/1.14.2
+prefix=/home/linuxbrew/.linuxbrew/Cellar/recordproto/1.14.2
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/glproto/1.4.17
+prefix=/home/linuxbrew/.linuxbrew/Cellar/glproto/1.4.17
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

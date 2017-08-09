@@ -4,7 +4,7 @@ package obj
 
 import "runtime"
 
-const defaultGOROOT = `/home/dojo/.linuxbrew/Cellar/go/1.8.3/libexec`
+const defaultGOROOT = `/home/linuxbrew/.linuxbrew/Cellar/go/1.8.3/libexec`
 const defaultGO386 = `sse2`
 const defaultGOARM = `5`
 const defaultGOOS = runtime.GOOS

@@ -1,8 +1,8 @@
-prefix=/home/dojo/.linuxbrew/Cellar/libxt/1.1.5
+prefix=/home/linuxbrew/.linuxbrew/Cellar/libxt/1.1.5
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
-appdefaultdir=/home/dojo/.linuxbrew/etc/X11/app-defaults
+appdefaultdir=/home/linuxbrew/.linuxbrew/etc/X11/app-defaults
 datarootdir=${prefix}/share
 errordbdir=${datarootdir}/X11
 

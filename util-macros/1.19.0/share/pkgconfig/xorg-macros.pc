@@ -1,4 +1,4 @@
-prefix=/home/dojo/.linuxbrew/Cellar/util-macros/1.19.0
+prefix=/home/linuxbrew/.linuxbrew/Cellar/util-macros/1.19.0
 exec_prefix=${prefix}
 includedir=${prefix}/include
 datarootdir=${prefix}/share

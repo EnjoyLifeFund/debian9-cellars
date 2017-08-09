@@ -35,7 +35,7 @@ LANGUAGE=C;	export LANGUAGE
 LC_ALL=C;	export LC_ALL
 LC_CTYPE=C;	export LC_CTYPE
 
-prefix="/home/dojo/.linuxbrew/Cellar/ncurses/6.0_3"
+prefix="/home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_3"
 exec_prefix="${prefix}"
 
 bindir="${exec_prefix}/bin"
@@ -43,7 +43,7 @@ includedir="${prefix}/include"
 libdir="${exec_prefix}/lib"
 datarootdir="${prefix}/share"
 datadir="${datarootdir}"
-mandir="/home/dojo/.linuxbrew/Cellar/ncurses/6.0_3/share/man"
+mandir="/home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_3/share/man"
 
 THIS="ncursesw"
 TINFO_LIB="ncursesw"
@@ -154,10 +154,10 @@ ENDECHO
 		echo "${mandir}"
 		;;
 	--terminfo)
-		echo "/home/dojo/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo"
+		echo "/home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo"
 		;;
 	--terminfo-dirs)
-		echo "/home/dojo/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo"
+		echo "/home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_3/share/terminfo"
 		;;
 	--termpath)
 		echo ""
